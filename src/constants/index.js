@@ -23,6 +23,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  bdflix,
+  p2,
+  p1,
+  research,
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +50,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Machine Learning",
     icon: mobile,
   },
   {
@@ -117,7 +121,7 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
+    company_name: "",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
@@ -129,13 +133,13 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Machine Learning",
+    company_name: "",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using React js and Machine learning Algorithm and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -143,7 +147,7 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
+    company_name: "",
     icon: shopify,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
@@ -156,7 +160,7 @@ const experiences = [
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
+    company_name: "",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
@@ -198,9 +202,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "BD Flix",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "BDFlix is a video streaming platform that recommends personalized content based on a user-choice system. It analyzes user data to suggest new movies and TV shows that align with their interests and preferences. This makes it easier for users to discover new content they'll enjoy.",
     tags: [
       {
         name: "react",
@@ -214,52 +218,87 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "Machine Learning",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "SSL",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JWT",
+        color: "pink-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: bdflix,
+    source_code_link: "https://github.com/EmonKumarDas/netflixClone",
   },
   {
-    name: "Job IT",
+    name: "E-commerce",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "My website is an e-commerce platform that facilitates buying and selling. Users can purchase products listed by sellers or create their own listings. The website offers a secure and convenient platform for online transactions, making e-commerce accessible to everyone.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCss",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: p2,
+    source_code_link: "https://github.com/EmonKumarDas/sell_products_e-com_webapp",
   },
   {
-    name: "Trip Guide",
+    name: "Doctor Appointments",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The doctor appointment website lets patients easily schedule appointments with doctors online. Users can search for doctors by specialty or location, view availability, book appointments, and receive confirmation via email or text. It's a convenient and efficient platform for accessing medical care.",
     tags: [
       {
-        name: "nextjs",
+        name: "ReactJs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "TailwindCSS",
+        color: "green-text-gradient",
       },
+      {
+        name: "Firebase",
+        color: "green-text-gradient",
+      },
+
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: p1,
+    source_code_link: "https://github.com/EmonKumarDas/doctor_appointment_client",
+  },
+];
+const Research = [
+  {
+    name: "Heart Diseases Prediction",
+    description:
+      "",
+    tags: [],
+    image: research,
+    source_code_link: "https://www.mdpi.com/2227-9032/10/6/1137",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, Research };
