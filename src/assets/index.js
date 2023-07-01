@@ -22,7 +22,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import p2 from "./tech/p2.png";
 import p1 from "./tech/p1.png";
-import research from "./tech/research.png";
+import prodisigner from "./tech/prodisigner.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -65,5 +65,5 @@ export {
   bdflix,
   p2,
   p1,
-  research
+  prodisigner
 };

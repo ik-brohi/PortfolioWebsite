@@ -26,7 +26,7 @@ import {
   bdflix,
   p2,
   p1,
-  research,
+  prodisigner,
 } from "../assets";
 
 export const navLinks = [
@@ -54,11 +54,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "AI Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "UI/UX Designer",
     icon: creator,
   },
 ];
@@ -176,7 +176,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Imran proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -184,7 +184,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Imran does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -192,7 +192,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Imran optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -202,7 +202,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "BD Flix",
+    name: "NetFlix Clone",
     description:
       "BDFlix is a video streaming platform that recommends personalized content based on a user-choice system. It analyzes user data to suggest new movies and TV shows that align with their interests and preferences. This makes it easier for users to discover new content they'll enjoy.",
     tags: [
@@ -232,10 +232,10 @@ const projects = [
       },
     ],
     image: bdflix,
-    source_code_link: "https://github.com/EmonKumarDas/netflixClone",
+    source_code_link: "https://github.com/ik-brohi/Netflix-clone-",
   },
   {
-    name: "E-commerce",
+    name: "Ecommerce Website",
     description:
       "My website is an e-commerce platform that facilitates buying and selling. Users can purchase products listed by sellers or create their own listings. The website offers a secure and convenient platform for online transactions, making e-commerce accessible to everyone.",
     tags: [
@@ -261,10 +261,10 @@ const projects = [
       },
     ],
     image: p2,
-    source_code_link: "https://github.com/EmonKumarDas/sell_products_e-com_webapp",
+    source_code_link: "https://github.com/ik-brohi/E-commerce-website-reactJs",
   },
   {
-    name: "Doctor Appointments",
+    name: "Virtual doctor",
     description:
       "The doctor appointment website lets patients easily schedule appointments with doctors online. Users can search for doctors by specialty or location, view availability, book appointments, and receive confirmation via email or text. It's a convenient and efficient platform for accessing medical care.",
     tags: [
@@ -287,17 +287,17 @@ const projects = [
 
     ],
     image: p1,
-    source_code_link: "https://github.com/EmonKumarDas/doctor_appointment_client",
+    source_code_link: "https://github.com/ik-brohi/Hire-Doctor-Doctor-Appointment-website",
   },
 ];
 const Research = [
   {
-    name: "Heart Diseases Prediction",
+    name: "@pro_designer Figma",
     description:
       "",
     tags: [],
-    image: research,
-    source_code_link: "https://www.mdpi.com/2227-9032/10/6/1137",
+    image: prodisigner,
+    source_code_link: "https://www.figma.com/@pro_designer",
   },
 ];
 

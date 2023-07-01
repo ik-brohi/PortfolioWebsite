@@ -1,12 +1,12 @@
 import React from "react";
-import Tilt from "react-tilt";
+import {Tilt} from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-import personal from "../assets/company/emon.jpeg"
+import personal from "../assets/company/imran.jpeg"
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
@@ -43,18 +43,22 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
       <motion.div variants={textVariant()}>
-        <img width={300} src={personal} alt="" srcset="" />
+        <img width={300} height={200} src={personal} alt="" srcset="" />
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        As a software engineer, I have a diverse range of skills in various domains,
+        including web development, UI/UX design, AI development, data science, and 
+        machine learning. I am well-versed in building robust and scalable web 
+        applications using modern technologies and frameworks. With a keen eye for
+        aesthetics and user experience, I am proficient in designing intuitive and 
+        visually appealing user interfaces. Additionally, I have expertise in developing 
+        AI solutions and leveraging data science techniques to extract valuable insights 
+        from data. My passion for machine learning enables me to create intelligent systems 
+        that can learn and make data-driven decisions.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

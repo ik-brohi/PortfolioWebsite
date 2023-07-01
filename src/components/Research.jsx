@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from "react-tilt";
+import {Tilt} from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -72,7 +72,7 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Research.</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Graphics Designing.</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -80,11 +80,12 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Following research showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          As a professional graphics and UI/UX designer, I utilize my creativity and expertise to craft
+          visually appealing and user-friendly designs. With a strong command over Figma, my designs are
+          brought to life through meticulous attention to detail and a deep understanding of user experience. 
+          By leveraging my skills in graphic design and UI/UX principles, I create intuitive interfaces and 
+          captivating visuals that seamlessly blend aesthetics and functionality. Follow my journey on 
+          Figma @pro_designer as I strive to deliver compelling and impactful design solutions.
         </motion.p>
       </div>
 
