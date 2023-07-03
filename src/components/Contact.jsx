@@ -31,19 +31,18 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+    const serviceID = "service_mrxud9s";
+    const templateID = "template_sex3sk9";
+    const userID = "F0Q4WGbaFSJOr15Q2";
+
     emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        {
-          from_name: form.name,
-          to_name: "Software Engineer",
-          from_email: form.email,
-          to_email: "Ik02161@gmail.com",
-          message: form.message,
-        },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
-      )
+      .send(serviceID, templateID, {
+        from_name: form.name,
+        to_name: "Imran",
+        from_email: form.email,
+        to_email: "Ik02161@gmail.com",
+        message: form.message,
+      }, userID)
       .then(
         () => {
           setLoading(false);
@@ -118,7 +117,7 @@ const Contact = () => {
             type='submit'
             className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >
-            {loading ? "Sending..." : "Send"}
+            {loading ? "Sent" : "Send"}
           </button>
         </form>
       </motion.div>
